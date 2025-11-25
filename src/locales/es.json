@@ -1,0 +1,359 @@
+{
+  "nav": {
+    "dashboard": "Dashboard",
+    "alerts": "Alertas",
+    "devices": "Mis Dispositivos",
+    "subscriptions": "Suscripciones",
+    "rewards": "Recompensas",
+    "configuration": "Configuración",
+    "logout": "Cerrar sesión"
+  },
+  "header": {
+    "greeting": "Hola"
+  },
+  "dashboard": {
+    "title": "Resumen general",
+    "kpi": {
+      "activeDevices": "Dispositivos activos",
+      "registeredInAccount": "Registrados en tu cuenta",
+      "currentConsumption": "Consumo actual",
+      "realTimeMeasurement": "Medición en tiempo real",
+      "todayConsumption": "Consumo de hoy",
+      "totalSoFar": "Total hasta el momento",
+      "estimatedWeeklyCost": "Costo semanal estimado",
+      "basedOnCurrentRate": "Basado en tu tarifa actual",
+      "dailyAverage": "Promedio diario",
+      "lastDays": "Últimos 7 días"
+    },
+    "charts": {
+      "hourlyConsumption": "Consumo de energía hoy (por hora)",
+      "deviceConsumption": "Consumo por dispositivo",
+      "weeklyConsumption": "Consumo esta semana (diario)"
+    }
+  },
+  "alerts": {
+    "title": "Alertas",
+    "simulateAlert": "Simular alerta",
+    "markAllAsRead": "Marcar todas como leídas",
+    "unreadSingular": "alerta sin leer",
+    "unreadPlural": "alertas sin leer",
+    "noAlerts": "No hay alertas",
+    "noAlertsDescription": "Cuando tengas novedades, aparecerán aquí.",
+    "type": {
+      "warning": "Advertencia",
+      "info": "Información"
+    }
+  },
+  "devices": {
+    "title": "Mis Dispositivos",
+    "addDevice": "Agregar dispositivo",
+    "addManual": "Agregar Manual",
+    "addPlug": "Agregar Enchufe",
+    "addSensor": "Agregar Sensor",
+    "search": "Buscar por nombre...",
+    "name": "Nombre",
+    "type": "Tipo",
+    "zone": "Zona",
+    "power": "Power",
+    "status": "Estado",
+    "actions": "Acciones",
+    "noDevices": "No hay dispositivos registrados",
+    "limit": "Límite alcanzado",
+    "limitReached": "Límite alcanzado",
+    "edit": "Editar",
+    "delete": "Eliminar",
+    "unlink": "Desvincular",
+    "turnOn": "Encendido",
+    "turnOff": "Apagado",
+    "list": "Lista de dispositivos",
+    "customize": "Personalizar / Desvincular",
+    "unlinkSection": "Desvincular",
+    "newName": "Nuevo nombre",
+    "selectDevice": "Selecciona",
+    "noZone": "Sin zona",
+    "plan": "Plan",
+    "allowedType": "Tipo permitido",
+    "types": {
+      "plug": "Enchufe",
+      "sensor": "Sensor",
+      "manual": "Manual"
+    },
+    "plans": {
+      "basic": "Básico",
+      "student": "Estudiantil",
+      "family": "Familiar"
+    },
+    "catalog": {
+      "refrigerator": "Refrigeradora",
+      "washer": "Lavadora",
+      "tv": "Televisor",
+      "pc": "Computadora",
+      "lights": "Iluminación",
+      "other": "Otro"
+    },
+    "manual": {
+      "title": "Agregar Dispositivo Manual",
+      "deviceType": "Tipo de dispositivo",
+      "monthlyConsumption": "Consumo mensual (kWh)",
+      "estimatedCost": "Costo estimado (S/)",
+      "tariff": "Tarifa (opcional)",
+      "create": "Crear",
+      "selectType": "Selecciona el tipo de dispositivo",
+      "fillFields": "Completa consumo mensual y costo estimado"
+    },
+    "zones": {
+      "title": "Zonas",
+      "newZone": "Nueva Zona",
+      "add": "Agregar",
+      "rename": "Nuevo nombre de la zona",
+      "delete": "¿Eliminar zona \"{name}\"?",
+      "created": "Zona creada",
+      "updated": "Zona actualizada",
+      "deleted": "Zona eliminada",
+      "assigned": "Zona asignada"
+    },
+    "messages": {
+      "added": "Dispositivo agregado",
+      "manualAdded": "Dispositivo manual agregado",
+      "updated": "Nombre actualizado",
+      "unlinked": "Dispositivo desvinculado",
+      "confirmUnlink": "¿Desvincular \"{name}\"?"
+    }
+  },
+  "subscriptions": {
+    "title": "Suscripciones",
+    "subtitle": "Aumentar el límite de tus dispositivos",
+    "description": "Elige un plan. Los límites de dispositivos e historial cambian de inmediato en la app.",
+    "options": {
+      "change": "Cambiar plan",
+      "renew": "Renovar plan",
+      "cancel": "Cancelar plan"
+    },
+    "plans": {
+      "basic": {
+        "name": "Plan Básico",
+        "devices": "Dispositivos: 1",
+        "history": "Historial: 7 días",
+        "meta": "Dispositivos: 1 · Historial: 7 días",
+        "features": {
+          "history": "Historial de consumo (últimos 7 días)",
+          "alerts": "Alertas básicas (límite mensual)",
+          "manual": "Agrega dispositivos manualmente"
+        }
+      },
+      "student": {
+        "name": "Plan Estudiantil",
+        "devices": "Dispositivos: 2",
+        "history": "Historial: 90 días",
+        "meta": "Dispositivos: 2 · Historial: 90 días",
+        "features": {
+          "basic": "Todo lo del Plan Básico",
+          "extendedHistory": "Historial ampliado (últimos 3 meses)",
+          "recommendations": "Recomendaciones personalizadas",
+          "smartAlerts": "Alertas inteligentes (consumo inusual, luces encendidas)",
+          "deviceLimit": "Agregar maximo 2 dispositivos"
+        }
+      },
+      "family": {
+        "name": "Plan Familiar (Premium)",
+        "devices": "Dispositivos: ∞",
+        "history": "Historial: ∞",
+        "meta": "Dispositivos: ∞ · Historial: ∞",
+        "features": {
+          "student": "Todo lo del Plan Estudiantil",
+          "unlimitedHistory": "Historial completo sin límites",
+          "forecast": "Pronóstico de consumo y ahorro estimado",
+          "export": "Exportación de reportes en PDF y Excel"
+        }
+      }
+    },
+    "buttons": {
+      "current": "Plan actual",
+      "choose": "Elegir {plan}",
+      "renew": "Renovar",
+      "cancel": "Cancelar"
+    },
+    "billing": {
+      "title": "Método de pago",
+      "subtitle": "Añade una tarjeta para activar y renovar tu plan.",
+      "cardholder": "Titular de la tarjeta",
+      "cardholderPlaceholder": "Nombre como aparece en la tarjeta",
+      "cardNumber": "Número de tarjeta",
+      "cardNumberPlaceholder": "1234 5678 9012 3456",
+      "expiry": "Vencimiento (MM/AA)",
+      "expiryPlaceholder": "MM/AA",
+      "cvv": "CVV",
+      "cvvPlaceholder": "3 o 4 dígitos",
+      "saveAsDefault": "Guardar como método predeterminado",
+      "saveButton": "Guardar tarjeta",
+      "savedCards": "Tarjetas guardadas",
+      "noCards": "Aún no tienes tarjetas guardadas.",
+      "default": "Predeterminada",
+      "remove": "Eliminar",
+      "confirmRemove": "¿Eliminar esta tarjeta?"
+    },
+    "messages": {
+      "planChanged": "Tu plan ahora es {plan}",
+      "cardSaved": "Tarjeta guardada correctamente.",
+      "errors": {
+        "changePlan": "No se pudo cambiar el plan",
+        "cardholderRequired": "Ingresa el titular de la tarjeta.",
+        "invalidCard": "Número de tarjeta inválido.",
+        "invalidExpiry": "Vencimiento inválido.",
+        "invalidCvv": "CVV inválido."
+      }
+    }
+  },
+  "rewards": {
+    "title": "Recompensas",
+    "subtitle": "Invita y gana puntos. Canjéalos pronto por beneficios.",
+    "kpi": {
+      "totalPoints": "Total de puntos",
+      "level": "Nivel {level}",
+      "levelProgress": "{progress}% hacia el siguiente",
+      "referrals": "Referidos",
+      "active": "Activos",
+      "rewarded": "Recompensados",
+      "policy": "Política de referidos"
+    },
+    "policy": {
+      "activeCode": "1 código activo cada 24 h.",
+      "rewardPerReferral": "Recompensa por referido activado: <b>+{points}</b> pts.",
+      "maxUses": "Máx. <b>{max}</b> usos por código.",
+      "requiresPlan": "Requiere plan activo."
+    },
+    "code": {
+      "title": "Invita con tu código",
+      "activeLabel": "Código activo",
+      "expires": "Caduca: {date}",
+      "noActive": "No tienes un código activo.",
+      "generate": "Generar código",
+      "copy": "Copiar",
+      "share": "Compartir",
+      "revoke": "Revocar",
+      "requiresPlan": "Necesitas un plan activo para generar códigos.",
+      "cooldown": "Próximo intento: {time}",
+      "copied": "Código copiado",
+      "linkCopied": "Enlace copiado: {link}"
+    },
+    "history": {
+      "title": "Historial de referidos",
+      "noReferrals": "Aún no tienes referidos.",
+      "user": "Usuario",
+      "code": "Código",
+      "status": "Estado",
+      "date": "Fecha",
+      "points": "Puntos",
+      "creditReward": "Acreditar recompensa",
+      "statuses": {
+        "pending": "Pendiente",
+        "activated": "Activado",
+        "rewarded": "Recompensado"
+      }
+    },
+    "share": {
+      "title": "Únete a Energix",
+      "text": "Regístrate con mi código:"
+    }
+  },
+  "configuration": {
+    "title": "Configuración",
+    "subtitle": "Plan actual: {plan} | Historial: {history} | Dispositivos: {devices}",
+    "profile": {
+      "title": "Perfil",
+      "name": "Nombre",
+      "namePlaceholder": "Jorge",
+      "lastName": "Apellido",
+      "lastNamePlaceholder": "Benavides",
+      "email": "Correo",
+      "emailPlaceholder": "usuario@ejemplo.com",
+      "dni": "DNI",
+      "dniPlaceholder": "99999999",
+      "district": "Distrito",
+      "districtPlaceholder": "Miraflores"
+    },
+    "personalization": {
+      "title": "Personalización del panel",
+      "kpiCurrent": "KPI Consumo actual",
+      "kpiCost": "KPI Costo estimado",
+      "kpiMonthly": "KPI Consumo mensual",
+      "chartHourly": "Gráfico: Consumo por hora (hoy)",
+      "chartMonthly": "Gráfico: Consumo este mes (ahorro)",
+      "chartDevice": "Gráfico: Consumo por dispositivo (Status)"
+    },
+    "security": {
+      "title": "Seguridad",
+      "currentPassword": "Contraseña actual",
+      "newPassword": "Nueva contraseña",
+      "confirmPassword": "Confirmar contraseña",
+      "updatePassword": "Actualizar contraseña"
+    },
+    "buttons": {
+      "save": "Guardar cambios",
+      "cancel": "Cancelar",
+      "reset": "Restablecer"
+    },
+    "messages": {
+      "profileSaved": "Perfil guardado correctamente",
+      "profileError": "Error al guardar el perfil",
+      "changesCancelled": "Cambios cancelados",
+      "personalizationSaved": "Personalización guardada y reflejada en el Dashboard",
+      "personalizationReset": "Personalización restablecida",
+      "passwordUpdated": "Contraseña actualizada correctamente",
+      "passwordError": "Error al actualizar la contraseña",
+      "passwordMismatch": "Las contraseñas no coinciden"
+    },
+    "plans": {
+      "basic": "Plan Básico",
+      "student": "Plan Estudiantil",
+      "family": "Plan Familiar"
+    }
+  },
+  "common": {
+    "save": "Guardar",
+    "cancel": "Cancelar",
+    "delete": "Eliminar",
+    "edit": "Editar",
+    "close": "Cerrar",
+    "loading": "Cargando...",
+    "error": "Error",
+    "success": "Éxito",
+    "confirm": "Confirmar",
+    "confirmation": "Confirmación",
+    "yes": "Sí",
+    "no": "No",
+    "search": "Buscar"
+  },
+  "units": {
+    "kWh": "kWh",
+    "currency": "S/"
+  },
+  "time": {
+    "days": {
+      "sunday": "Domingo",
+      "monday": "Lunes",
+      "tuesday": "Martes",
+      "wednesday": "Miércoles",
+      "thursday": "Jueves",
+      "friday": "Viernes",
+      "saturday": "Sábado"
+    },
+    "months": {
+      "january": "Enero",
+      "february": "Febrero",
+      "march": "Marzo",
+      "april": "Abril",
+      "may": "Mayo",
+      "june": "Junio",
+      "july": "Julio",
+      "august": "Agosto",
+      "september": "Septiembre",
+      "october": "Octubre",
+      "november": "Noviembre",
+      "december": "Diciembre"
+    },
+    "am": "a. m.",
+    "pm": "p. m."
+  }
+}
+

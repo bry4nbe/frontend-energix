@@ -1,0 +1,359 @@
+{
+  "nav": {
+    "dashboard": "Dashboard",
+    "alerts": "Alerts",
+    "devices": "My Devices",
+    "subscriptions": "Subscriptions",
+    "rewards": "Rewards",
+    "configuration": "Configuration",
+    "logout": "Logout"
+  },
+  "header": {
+    "greeting": "Hello"
+  },
+  "dashboard": {
+    "title": "General Summary",
+    "kpi": {
+      "activeDevices": "Active Devices",
+      "registeredInAccount": "Registered in your account",
+      "currentConsumption": "Current Consumption",
+      "realTimeMeasurement": "Real-time measurement",
+      "todayConsumption": "Today's Consumption",
+      "totalSoFar": "Total so far",
+      "estimatedWeeklyCost": "Estimated Weekly Cost",
+      "basedOnCurrentRate": "Based on your current rate",
+      "dailyAverage": "Daily Average",
+      "lastDays": "Last 7 days"
+    },
+    "charts": {
+      "hourlyConsumption": "Energy Consumption Today (hourly)",
+      "deviceConsumption": "Consumption by Device",
+      "weeklyConsumption": "Consumption This Week (daily)"
+    }
+  },
+  "alerts": {
+    "title": "Alerts",
+    "simulateAlert": "Simulate Alert",
+    "markAllAsRead": "Mark All as Read",
+    "unreadSingular": "unread alert",
+    "unreadPlural": "unread alerts",
+    "noAlerts": "No alerts",
+    "noAlertsDescription": "When you have updates, they will appear here.",
+    "type": {
+      "warning": "Warning",
+      "info": "Information"
+    }
+  },
+  "devices": {
+    "title": "My Devices",
+    "addDevice": "Add Device",
+    "addManual": "Add Manual",
+    "addPlug": "Add Smart Plug",
+    "addSensor": "Add Sensor",
+    "search": "Search by name...",
+    "name": "Name",
+    "type": "Type",
+    "zone": "Zone",
+    "power": "Power",
+    "status": "Status",
+    "actions": "Actions",
+    "noDevices": "No registered devices",
+    "limit": "Limit reached",
+    "limitReached": "Limit reached",
+    "edit": "Edit",
+    "delete": "Delete",
+    "unlink": "Unlink",
+    "turnOn": "On",
+    "turnOff": "Off",
+    "list": "Device List",
+    "customize": "Customize / Unlink",
+    "unlinkSection": "Unlink",
+    "newName": "New name",
+    "selectDevice": "Select",
+    "noZone": "No zone",
+    "plan": "Plan",
+    "allowedType": "Allowed type",
+    "types": {
+      "plug": "Smart Plug",
+      "sensor": "Sensor",
+      "manual": "Manual"
+    },
+    "plans": {
+      "basic": "Basic",
+      "student": "Student",
+      "family": "Family"
+    },
+    "catalog": {
+      "refrigerator": "Refrigerator",
+      "washer": "Washer",
+      "tv": "TV",
+      "pc": "Computer",
+      "lights": "Lighting",
+      "other": "Other"
+    },
+    "manual": {
+      "title": "Add Manual Device",
+      "deviceType": "Device type",
+      "monthlyConsumption": "Monthly consumption (kWh)",
+      "estimatedCost": "Estimated cost ($)",
+      "tariff": "Tariff (optional)",
+      "create": "Create",
+      "selectType": "Select device type",
+      "fillFields": "Fill in monthly consumption and estimated cost"
+    },
+    "zones": {
+      "title": "Zones",
+      "newZone": "New Zone",
+      "add": "Add",
+      "rename": "New zone name",
+      "delete": "Delete zone \"{name}\"?",
+      "created": "Zone created",
+      "updated": "Zone updated",
+      "deleted": "Zone deleted",
+      "assigned": "Zone assigned"
+    },
+    "messages": {
+      "added": "Device added",
+      "manualAdded": "Manual device added",
+      "updated": "Name updated",
+      "unlinked": "Device unlinked",
+      "confirmUnlink": "Unlink \"{name}\"?"
+    }
+  },
+  "subscriptions": {
+    "title": "Subscriptions",
+    "subtitle": "Increase your device limit",
+    "description": "Choose a plan. Device and history limits change immediately in the app.",
+    "options": {
+      "change": "Change plan",
+      "renew": "Renew plan",
+      "cancel": "Cancel plan"
+    },
+    "plans": {
+      "basic": {
+        "name": "Basic Plan",
+        "devices": "Devices: 1",
+        "history": "History: 7 days",
+        "meta": "Devices: 1 · History: 7 days",
+        "features": {
+          "history": "Consumption history (last 7 days)",
+          "alerts": "Basic alerts (monthly limit)",
+          "manual": "Add devices manually"
+        }
+      },
+      "student": {
+        "name": "Student Plan",
+        "devices": "Devices: 2",
+        "history": "History: 90 days",
+        "meta": "Devices: 2 · History: 90 days",
+        "features": {
+          "basic": "Everything in Basic Plan",
+          "extendedHistory": "Extended history (last 3 months)",
+          "recommendations": "Personalized recommendations",
+          "smartAlerts": "Smart alerts (unusual consumption, lights left on)",
+          "deviceLimit": "Add up to 2 devices"
+        }
+      },
+      "family": {
+        "name": "Family Plan (Premium)",
+        "devices": "Devices: ∞",
+        "history": "History: ∞",
+        "meta": "Devices: ∞ · History: ∞",
+        "features": {
+          "student": "Everything in Student Plan",
+          "unlimitedHistory": "Complete history without limits",
+          "forecast": "Consumption forecast and estimated savings",
+          "export": "Report export in PDF and Excel"
+        }
+      }
+    },
+    "buttons": {
+      "current": "Current plan",
+      "choose": "Choose {plan}",
+      "renew": "Renew",
+      "cancel": "Cancel"
+    },
+    "billing": {
+      "title": "Payment Method",
+      "subtitle": "Add a card to activate and renew your plan.",
+      "cardholder": "Cardholder name",
+      "cardholderPlaceholder": "Name as it appears on the card",
+      "cardNumber": "Card number",
+      "cardNumberPlaceholder": "1234 5678 9012 3456",
+      "expiry": "Expiration (MM/YY)",
+      "expiryPlaceholder": "MM/YY",
+      "cvv": "CVV",
+      "cvvPlaceholder": "3 or 4 digits",
+      "saveAsDefault": "Save as default payment method",
+      "saveButton": "Save card",
+      "savedCards": "Saved cards",
+      "noCards": "You don't have any saved cards yet.",
+      "default": "Default",
+      "remove": "Remove",
+      "confirmRemove": "Remove this card?"
+    },
+    "messages": {
+      "planChanged": "Your plan is now {plan}",
+      "cardSaved": "Card saved successfully.",
+      "errors": {
+        "changePlan": "Could not change plan",
+        "cardholderRequired": "Enter the cardholder name.",
+        "invalidCard": "Invalid card number.",
+        "invalidExpiry": "Invalid expiration date.",
+        "invalidCvv": "Invalid CVV."
+      }
+    }
+  },
+  "rewards": {
+    "title": "Rewards",
+    "subtitle": "Invite and earn points. Redeem them soon for benefits.",
+    "kpi": {
+      "totalPoints": "Total Points",
+      "level": "Level {level}",
+      "levelProgress": "{progress}% to next level",
+      "referrals": "Referrals",
+      "active": "Active",
+      "rewarded": "Rewarded",
+      "policy": "Referral Policy"
+    },
+    "policy": {
+      "activeCode": "1 active code every 24 hours.",
+      "rewardPerReferral": "Reward per activated referral: <b>+{points}</b> pts.",
+      "maxUses": "Max <b>{max}</b> uses per code.",
+      "requiresPlan": "Requires active plan."
+    },
+    "code": {
+      "title": "Invite with your code",
+      "activeLabel": "Active code",
+      "expires": "Expires: {date}",
+      "noActive": "You don't have an active code.",
+      "generate": "Generate code",
+      "copy": "Copy",
+      "share": "Share",
+      "revoke": "Revoke",
+      "requiresPlan": "You need an active plan to generate codes.",
+      "cooldown": "Next attempt: {time}",
+      "copied": "Code copied",
+      "linkCopied": "Link copied: {link}"
+    },
+    "history": {
+      "title": "Referral History",
+      "noReferrals": "You don't have any referrals yet.",
+      "user": "User",
+      "code": "Code",
+      "status": "Status",
+      "date": "Date",
+      "points": "Points",
+      "creditReward": "Credit Reward",
+      "statuses": {
+        "pending": "Pending",
+        "activated": "Activated",
+        "rewarded": "Rewarded"
+      }
+    },
+    "share": {
+      "title": "Join Energix",
+      "text": "Sign up with my code:"
+    }
+  },
+  "configuration": {
+    "title": "Configuration",
+    "subtitle": "Current plan: {plan} | History: {history} | Devices: {devices}",
+    "profile": {
+      "title": "Profile",
+      "name": "Name",
+      "namePlaceholder": "Jorge",
+      "lastName": "Last Name",
+      "lastNamePlaceholder": "Benavides",
+      "email": "Email",
+      "emailPlaceholder": "user@example.com",
+      "dni": "ID Number",
+      "dniPlaceholder": "99999999",
+      "district": "District",
+      "districtPlaceholder": "Miraflores"
+    },
+    "personalization": {
+      "title": "Dashboard Personalization",
+      "kpiCurrent": "KPI Current Consumption",
+      "kpiCost": "KPI Estimated Cost",
+      "kpiMonthly": "KPI Monthly Consumption",
+      "chartHourly": "Chart: Hourly consumption (today)",
+      "chartMonthly": "Chart: This month consumption (savings)",
+      "chartDevice": "Chart: Device consumption (Status)"
+    },
+    "security": {
+      "title": "Security",
+      "currentPassword": "Current password",
+      "newPassword": "New password",
+      "confirmPassword": "Confirm password",
+      "updatePassword": "Update password"
+    },
+    "buttons": {
+      "save": "Save changes",
+      "cancel": "Cancel",
+      "reset": "Reset"
+    },
+    "messages": {
+      "profileSaved": "Profile saved successfully",
+      "profileError": "Error saving profile",
+      "changesCancelled": "Changes cancelled",
+      "personalizationSaved": "Personalization saved and reflected in Dashboard",
+      "personalizationReset": "Personalization reset",
+      "passwordUpdated": "Password updated successfully",
+      "passwordError": "Error updating password",
+      "passwordMismatch": "Passwords do not match"
+    },
+    "plans": {
+      "basic": "Basic Plan",
+      "student": "Student Plan",
+      "family": "Family Plan"
+    }
+  },
+  "common": {
+    "save": "Save",
+    "cancel": "Cancel",
+    "delete": "Delete",
+    "edit": "Edit",
+    "close": "Close",
+    "loading": "Loading...",
+    "error": "Error",
+    "success": "Success",
+    "confirm": "Confirm",
+    "confirmation": "Confirmation",
+    "yes": "Yes",
+    "no": "No",
+    "search": "Search"
+  },
+  "units": {
+    "kWh": "kWh",
+    "currency": "$"
+  },
+  "time": {
+    "days": {
+      "sunday": "Sunday",
+      "monday": "Monday",
+      "tuesday": "Tuesday",
+      "wednesday": "Wednesday",
+      "thursday": "Thursday",
+      "friday": "Friday",
+      "saturday": "Saturday"
+    },
+    "months": {
+      "january": "January",
+      "february": "February",
+      "march": "March",
+      "april": "April",
+      "may": "May",
+      "june": "June",
+      "july": "July",
+      "august": "August",
+      "september": "September",
+      "october": "October",
+      "november": "November",
+      "december": "December"
+    },
+    "am": "a. m.",
+    "pm": "p. m."
+  }
+}
+
